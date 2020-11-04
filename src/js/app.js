@@ -17,8 +17,14 @@ const news = [
         "href": "https://www.svt.se/kultur/nobelpriset-i-litteratur-2020",
         "summary": "Den amerikanska poeten Louise Glück mottar Nobelpriset i litteratur 2020. Hon debuterade med Firstborn 1968 och anses vara en av de mest tongivande samtida amerikanska poeterna."
     },
+        
+    
+    
+    
 ]
+ 
 
+ 
 /** 
  * 
  * This is where you add code that will manipulate index.html!
@@ -34,5 +40,16 @@ const news = [
  * 
  * Good luck :) 
  */
+ function ex01()
+ {
+    document.getElementById("ex01").innerHTML="done!";
+ }
+ 
+ 
 
+
+ function ex02()
+ {
+    document.querySelector("ex02").style.color="red";
+ }
  console.log('js loaded!')
